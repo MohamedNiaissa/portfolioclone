@@ -1,0 +1,195 @@
+.containers{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.nav{
+    background-color: #f5f6f8;
+}
+#nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#nav p{
+    font-weight: bolder;
+    font-size:large;
+}
+
+#nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f7e05e;
+    border-radius: 20px;
+    font-size: small;
+}
+
+#nav ul li a{
+    display: block;
+	text-decoration: none;
+	color: black;
+	padding: .6em 1em;
+}
+#nav ul li a:hover{
+    border-radius: 20px;
+    
+}
+#nav ul li a:hover{
+    background: hsl(51, 91%, 80%)
+    
+}
+
+.lien:visited{
+    color: black;
+}
+
+.mainHead {
+    display: flex;
+    justify-content: space-evenly;
+    /* border-top: 20px solid #f5f6f8;
+    background-color: #f5f6f8; */
+}
+
+
+#first_div{
+    display: flex;
+    justify-content: flex-end;
+}
+#second_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#traitJaune{
+    align-self: flex-end;
+    width: max-content;
+    margin-right: 10px;
+}
+
+
+#first_div img {
+   height: 450px;
+   width: auto;
+}
+header{
+    background-color: #f5f6f8;
+}
+
+.fleche{
+    height: 13px;
+    margin-left: 5px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    
+}
+#button {
+    display: flex;
+    justify-content: center;
+    background-color: #f7e05e;
+    max-width: 29%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #f7e05e;
+    text-decoration: none;
+    
+}
+#button:hover{
+    background: hsl(51, 91%, 80%)
+}
+
+#button p{
+    color:black;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+#info h1{
+    margin-bottom: 0;
+}
+
+#info p{
+    margin-bottom: 0;
+}
+.wave{
+    background-color: white;
+    
+}
+
+.wave img {
+    height: 200px;
+    width : 100%
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+@media screen and (max-width: 450px){
+    #nav ul{
+        justify-content: space-around;
+    }
+    #nav li{
+		width: 40%;
+		text-align: center;
+	}
+
+    #nav ul li a {
+        padding: 0;
+        padding-bottom: .4em;
+        padding-top: .4em;
+    };
+}
+
+@media screen and (max-width: 800px){
+    
+    .mainHead {
+        flex-wrap:wrap;
+        align-items: center;
+    }
+
+    #first_div{
+        width : 70%;
+        justify-content: center;
+    }
+    #first_div img {
+        height: 75%;
+        width: 75%;
+     }
+
+
+}
+@media screen and (max-width: 950px){
+    #first_div img {
+        height: 90%;
+        width: 90%;
+     }
+}
+
+@media screen and (min-width: 450px) {
+	#nav ul{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	#nav li{
+		flex: 1 0 auto;
+		text-align: center;
+
+	}
+}

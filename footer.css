@@ -1,0 +1,22 @@
+.containerFooter{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    background-size: 100%;
+    border-top: 50px solid #f5f6f8;
+    border-bottom: 30px solid #f5f6f8;
+}
+.imgFooter{
+    height: 13px;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    transition: ease-in-out 0.3s;
+}
+footer{
+    background-color: #f5f6f8;
+}
+.imgFooter:hover{
+    height: 20px;
+    margin-top: 13px;
+}

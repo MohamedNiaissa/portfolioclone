@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="footer.css">
 		<link rel="stylesheet" href="header.css">
-		<link rel="stylesheet" href="services.css">
+        <link rel="stylesheet" href="contact.css">
 
 	</head>
 
@@ -35,7 +35,7 @@
 
 
 
-		<!-- HEADER -->		<!-- HEADER -->
+		<!-- HEADER -->
 
 		<header>
 			<div class="containers">
@@ -88,77 +88,56 @@
 		<!-- MAIN SECTION -->
 
 		<main class="maincontainer">
-
-            <div class="texteEtImage">
-                <div class="txtasidepage1">
-					
-
-                    <div class="titreEtTexte">
-                        <h3>Hello! I'm Walter Patterson.</h3>
-                        <p id="jtext">
-                            I am passionate about UI/UX design and Web Design. I am a skilled front-end developper and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done. I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.
-                        </p>
-
-                    </div>
-                
-
-                    <table class="tableau">
-                    
-						<tr class="tab">
-							<td>Age: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span>28</span></td>
-						</tr>
-						<tr class="tab">
-							<td>Email: &nbsp; &nbsp; &nbsp;  <span>walter@company.com</span></td>
-						</tr>
-						<tr class="tab">
-							<td>Skype: &nbsp; &nbsp; &nbsp;  <span>username@skype.com</span></td>
-						</tr>
-						<tr class="tab">
-							<td>Phone: &nbsp; &nbsp; &nbsp; <span>+0718-111-0011</span></td>
-						</tr>
-						<tr class="tab">
-							<td>Adress: &nbsp; &nbsp; &nbsp;  <span>New Delhi,India</span></td>
-						</tr>
-						<tr class="tab">
-							<td>Status: &nbsp; &nbsp; &nbsp; &nbsp;<span>Available</span></td>
-						</tr>
-                    </table>        
-                </div>
-
-                <div class="walter">
-					<img  src="images/walter.jpeg" alt="walter">
-				</div>
-
+            <div id="titre">
+                <h2>Contact Me <Meta:edge></Meta:edge></h2>
+            <img src="images/jaune.svg" alt="fluo_jaune">
             </div>
-            
-            <div class="myServices">
-                <h2 id="titleMyServices">My Services</h2>
-                <img class ="petitfluo" src="images/jaune.svg" alt="fluo_jaune">
+            <div class="main">
+                
+                <div class="divForm">
+                    <form class="form">
+                        <label for="name" id="label">Name</label>
+                        <input type="name" name="name" id="form" class="input">
+                        
+                        <label for="email" id="label">Email</label>
+                        <input type="email" name="email" id="form" class="input">
+                        
+                        <label for="message" id="label">Message</label>
+                        <textarea name="message" id="form" cols="30" rows="7"></textarea>
 
-                <p id="paraServices">I offer fit for any website or app. I can quickly maximize timely deliverables for real-time schemas.</p>
-
-                <div class="skillsImages">
-                    <div class="webdesign">
-                        <img src="images/web-design.svg" alt="web-design" />
-                        <p>Web Design</p>
-                    </div>
-                    
-                    <div class="graphicDesign">
-                        <img src="images/graphic-design.svg" alt="graphic-design" />
-                        <p>Graphic Design</p>
-                    </div>
-                    
-                    <div class="UIUX">
-                        <img src="images/ui-ux.svg" alt="ui/ux" />
-                        <p>UI/UX</p>
-                    </div>
-
-                    <div class="App">
-                        <img src="images/app-development.svg" alt="app-development" />
-                        <p> App Developpement </p>
-                    </div>
-                    
+                        <button id="submit">send</button>
+                        
+                    </form>
                 </div>
+                <div class="texte">
+                    <h2>Let's talk how I can help you!</h2>
+                    <div>
+                    <p>
+                        If you like my work and want to avail my services then drop me a message using the contact form.
+                    </p>
+                    <p>Or get in touch using my email, skype or my contact number.</p>
+                    <p>See you!</p>
+                    </div>      
+                    <table id="tab">
+                        <tr>
+                            <td>
+                                <span>Email:  &nbsp; &nbsp; &nbsp; &nbsp;walter@company.com</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Skype: &nbsp; &nbsp; &nbsp; &nbsp;username@skype.com</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span>Phone: &nbsp; &nbsp; &nbsp;+0718-111-0011</span>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+
             </div>
         </main>
 

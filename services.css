@@ -1,0 +1,251 @@
+
+.maincontainer{
+    width:100%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.walter img{
+    width: auto;
+    height: 15px;
+    border-radius: 30px;
+}
+
+.texteEtImage{
+    display: flex;
+    justify-content: center;
+    
+}
+.texteEtImage img{
+    padding-left: 10px;
+    height: max-content;
+    width: max-content;
+}
+
+.myServices h2{
+    margin-bottom: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bold;
+}
+.myServices{
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+.myServices p{
+    max-width: 500px;
+    margin: auto;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: small;
+    line-height: 20px;
+}
+
+.skillsImages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#jtext {
+width: 75%
+}
+
+.txtasidepage1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.tab td{
+    padding: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: lighter;
+}
+
+.tab td span {
+    font-weight: 1000;
+}
+
+.titreEtTexte h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+}
+
+.titreEtTexte p {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    font-size: 100;
+    line-height: 25px;
+}
+.skillsImages div p {
+    margin-top: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: small;
+    font-weight: 1000;
+}
+
+
+/* Effets*/
+
+
+nav a:hover{
+    text-decoration: underline;
+    transition: all .5s linear;
+}
+
+@media only screen and (min-width:1px) and (max-width:780px) {   /* quatre par quatre*/
+
+    .maincontainer{
+        width:100%;
+        max-width: 1200px;
+        margin: auto;
+        
+    }
+    .tableau{
+        text-align:center;
+    }
+    .txtasidepage1{
+
+        width: 90%;
+        /* text-align: center; */
+       
+    }
+
+    .texteEtImage{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+
+    .texteEtImage img{
+        padding: 0px;
+    }
+
+    .titreEtTexte h2{
+        position: relative;
+        left: 100px;
+        right: 100px;
+        width: 100%;
+    }
+    .titreEtTexte{
+        
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center
+   
+    }
+
+    .titreEtTexte p{
+        position: relative;
+        
+        width: auto;
+        margin-left: 0;
+    }
+
+    .titreEtTexte table{
+        position: relative;
+        left: 100px;
+        right: 100px;
+        width: 100%;
+    }
+
+    .walter img{
+        width: 100%;
+
+    }
+    .txtasidepage1{
+        align-content: center;
+    }
+    .txtasidepage1 img{
+        width: auto;
+        height: 2px;
+    }
+
+   
+
+    .skillsImages{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 50px;
+    }
+    /* .skillsImages img{
+        width: 40%;
+
+    } */
+
+     .webdesign{
+         width: 50%;
+         margin-bottom: 40px;
+
+    }
+    .graphicDesign{
+        width: 50%;
+        margin-bottom: 40px;
+    } 
+    .UIUX{
+        width: 50%;
+    }
+    .App{
+        width: 50%;
+    }
+
+    /* .webdesign{
+        margin-right: 70px;
+    }
+    
+    .UIUX{
+        margin-right: 70px;
+    }
+   */
+
+}
+
+
+
+    
+
+@media only screen and (min-width:1280px) {
+    .texteEtImage{
+        display: flex;
+        justify-content: center;        
+    }
+
+    
+}
+
+main div{
+    animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s;
+    -webkit-animation: fadein 2.5s;
+}
+@keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+@-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
